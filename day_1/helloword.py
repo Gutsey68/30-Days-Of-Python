@@ -49,3 +49,20 @@ print("Dictionary example:", {'name': 'gauthier', 'age': 27, 'location': 'alsace
 
 distance = math.sqrt(((10 - 2)**2) + ((8 - 3)**2))
 print("Euclidean distance between (2, 3) and (10, 8) is:", distance)
+
+len('python') == len('dragon')
+print('on' in 'python')
+print('on' in 'dragon')
+print('jargon' in 'I hope this course is not full of jargon')
+print('on' not in ('dragon' or 'python'))
+print(str(float(len('python'))))
+
+# if number % 2 == 0 , number is even
+
+print(7//3) # = 2
+print(int(2.7)) # = 2, both results are equal
+
+type('10') # str
+type(10) # int , not equal
+
+int('9.8') # error 
