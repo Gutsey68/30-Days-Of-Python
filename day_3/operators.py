@@ -59,4 +59,3 @@ print('You have lived for ', number_of_years * 60 * 60 * 24 * 365 , 'seconds' )
 for i in range(1, 5 + 1):
     row = [i, 1, i, i**2, i**3]
     print(' '.join(map(str, row)))
-
